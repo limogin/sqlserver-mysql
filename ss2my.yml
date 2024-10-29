@@ -1,0 +1,29 @@
+key:  "custom key for do a hash if needed .. "
+path: ./ddl # destination for ddl files 
+src: 
+  host: 
+  dbname:
+  user: 
+  password:
+  port: 1433 
+dst:
+  host: 
+  dbname: 
+  user: 
+  password:
+  port: 3306
+tables:
+  - Table1
+  - Table2
+  - ..
+anonymize:
+  Table1:
+    - field1
+    - field2
+    - ..
+  Table2:
+    - field1
+    - field2
+    - .. 
+    
+   
